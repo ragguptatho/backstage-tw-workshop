@@ -64,6 +64,6 @@ catalog:
         - allow: [User, Group]
     
     - type: url
-      target: https://github.com/backstage-workshop/backstage-users/blob/master/thoughtworks/org.yaml
+      target: https://github.com/ragguptatho/backstage-users/blob/master/thoughtworks/org.yaml
       rules:
         - allow: [ User, Group ]
