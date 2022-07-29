@@ -62,3 +62,8 @@ catalog:
       target: ../../examples/org.yaml
       rules:
         - allow: [User, Group]
+    
+    - type: url
+      target: https://github.com/backstage-workshop/backstage-users/blob/master/thoughtworks/org.yaml
+      rules:
+        - allow: [ User, Group ]

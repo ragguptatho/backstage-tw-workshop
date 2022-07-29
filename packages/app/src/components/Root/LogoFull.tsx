@@ -1,13 +1,18 @@
+import { makeStyles } from '@material-ui/core';
 import React from 'react';
 
 import Logo from './Logo.png';
 
-const styles = {width: '150px',backgroundColor:'white',borderRadius: '20px'}
+const useStyles = makeStyles({
+    logo:{width: '150px',backgroundColor:'white',borderRadius: '20px'}
+});
 
-const LogoFull = () => {
+const LogoFull = () => {  
+
+  const classes = useStyles();
 
   return (
-    <img src={Logo} style={styles}></img>
+    <img src={Logo} className={classes.logo}></img>
   );
 };
 

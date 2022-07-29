@@ -1,5 +1,8 @@
+import { Header } from '@backstage/core-components';
 import React from 'react';
 
+const headerMessage: string = "Welcome to TW HomePage";
+
 export const HomePage = () => {
-  return <h1>Welcome to TW Backstage!</h1>;
+  return <Header title={headerMessage} tooltip={headerMessage}></Header>
 };
